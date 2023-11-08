@@ -1,0 +1,12 @@
+body {
+    background-color: yellow;
+    height: 200vh;
+}
+
+.up-button {
+    /* 1. 스크롤 상관없이 우리가 보는 화면에서 특정 위치 고정 */
+    position: fixed;
+    /* 2. 우측 아래에 두기 */
+    right: 10px;
+    bottom: 10px;
+}
